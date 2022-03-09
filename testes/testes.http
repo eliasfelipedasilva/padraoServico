@@ -1,0 +1,18 @@
+
+
+GET http://localhost:4004/ordem/Ordens
+
+###
+
+POST http://localhost:4004/ordem/Ordens 
+Content-Type: application/json
+
+{
+    "ID" : 1,
+    "pais" : "CL",
+    "pedido" : 1,
+    "tipo" : "normal",
+    "preco" : 20
+}
+
+###
